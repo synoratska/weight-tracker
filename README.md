@@ -6,6 +6,7 @@ Here is deployed version:
 ## Introduction
 
 Small weight-tracker built with Vue 3 and Vite + Chart.js
+You can add your weight and observe your progress (or your weight changes) in a few days or in a week.
 
 [Weight Tracker]
 
