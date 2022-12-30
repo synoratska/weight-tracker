@@ -95,7 +95,7 @@ watch(
       <div class="weight-history">
         <h2>Weight History</h2>
         <ul>
-          <li v-for="weight in weights">
+          <li v-for="(weight,ind) in weights" :key="ind">
             <span>{{ weight.weight }} kg </span>
             <small>{{ new Date(weight.date).toLocaleDateString() }}</small>
           </li>
@@ -261,5 +261,20 @@ form input[type="submit"]:hover {
 .weight-history ul li small {
   color: #888;
   font-style: italic;
+}
+
+@media screen and (max-width: 570px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+  form input[type="number"] {
+     padding: 0.6rem 1rem;
+     margin-bottom: 5px;
+     text-align: center;
+  }
+  
 }
 </style>
