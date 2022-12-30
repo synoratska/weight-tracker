@@ -1,4 +1,4 @@
-# WEight Tracker
+# Weight Tracker
 
 Here is deployed version:
 ### [Live Site](https://vue-weight-tracker.netlify.app/)
