@@ -1,7 +1,13 @@
-# Vue 3 + Vite
+# WEight Tracker
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Here is deployed version:
+### [Live Site](https://vue-weight-tracker.netlify.app/)
 
-## Recommended IDE Setup
+## Introduction
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Small weight-tracker built with Vue 3 and Vite + Chart.js
+
+[Weight Tracker]
+
+
+[![tracker.png](https://i.postimg.cc/sfwCt4YC/tracker.png)](https://postimg.cc/14ndF67v)
